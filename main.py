@@ -9,6 +9,7 @@ def is_prime(n):
 
     Uses random.randint, math.log2
     """
+    assert n > 3
     k = int(log2(n))
     m = n - 1
     d = 0
